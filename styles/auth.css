@@ -1,0 +1,46 @@
+.auth_page{
+    width: 100%;
+    min-height: 100vh;
+    background:rgb(232, 220, 240);
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+h1{
+    color: black;
+    font-size: 70px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h2{
+    font-size: 30px;
+    font-family:cursive;
+}
+h3{
+    font-family: 40px;
+    font-family: cursive;
+}
+.auth2_page{
+    background:rgb(232, 220, 240);
+    align-items: left;
+    justify-content: left;
+}
+.auth_page form{
+    background: rgb(232, 220, 240);
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 25px 25px;
+}
+
+.auth_page form .pass{
+    position: relative;
+}
+
+.auth_page form .pass small{
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-1000%);
+    cursor: pointer;
+    opacity: 0.5;
+}
